@@ -1,0 +1,14 @@
+# Local macOS and Jekyll build artifacts
+.DS_Store
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local dependency caches
+.bundle/
+vendor/bundle/
+node_modules/
+
+# Locally generated dependency lockfile
+Gemfile.lock
