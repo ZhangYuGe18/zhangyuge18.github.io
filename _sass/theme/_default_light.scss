@@ -1,0 +1,54 @@
+/* ==========================================================================
+    DEFAULT THEME - LIGHT VERSION
+    ========================================================================== */
+/* Color codes used for the theme */
+$primary-color : #2b6cb0;
+/* A more premium, deeper tech blue */
+$gray : #718096;
+/* Cooler, modern gray */
+$dark-gray : #2d3748;
+/* Softer almost-black for better readability */
+$darker-gray : #1a202c;
+/* Deep slate for headings */
+$light-gray : #a0aec0;
+$lighter-gray : #edf2f7;
+/* Very light gray for borders/backgrounds */
+
+/* Color codes used for the site */
+$danger-color : #ee5f5b;
+$info-color : #2f7f93;
+$notice-color : #7a8288;
+$success-color : #62c462;
+$warning-color : #f89406;
+
+/* Other basic settings for the template */
+$border-radius : 4px;
+$box-shadow : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition : all 0.2s ease-in-out;
+$masthead-height : 70px;
+$navicon-width : 28px;
+$navicon-height : 4px;
+$sidebar-link-max-width : 250px;
+$sidebar-screen-min-width : 1024px;
+
+/* Default light theme for the site */
+:root {
+    --global-base-color : #{$primary-color};
+    --global-bg-color: #fcfcfc;
+    /* Extremely subtle off-white for less eye strain */
+    --global-footer-bg-color: #f7fafc;
+    --global-border-color: #e2e8f0;
+    --global-dark-border-color: #cbd5e0;
+    --global-code-background-color: #f1f5f9;
+    --global-code-text-color : #{$darker-gray};
+    --global-fig-caption-color: #718096;
+    --global-link-color: #3182ce;
+    --global-link-color-hover: #2c5282;
+    --global-link-color-visited: #4a5568;
+    --global-masthead-link-color : #{$dark-gray};
+    --global-masthead-link-color-hover: #3182ce;
+    --global-text-color: #4a5568;
+    /* Slightly lighter than pure dark for body text */
+    --global-text-color-light : #{$gray};
+    --global-thead-color : #{$lighter-gray};
+}
